@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1d1e22;
+}
+
+header {
+	
+	
+}
+
+header .block {
+	min-height: 100%;
+	display: block; 
+}
+
+header .top {
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #feda6a;
+	overflow: hidden;
+	width: 100%;
+}
+
+header .top h3 {
+	float: left;
+}
+
+header .top .login {
+	float: right;
+	padding-right: 5%;
+	
+}
+
+header .navbar {
+	overflow: hidden;
+	color: white;
+	background-color: #393f4d;
+	padding: 1%;
+	
+}
+
+header .navbar ul{
+	
+	text-align: center;
+	list-style-type: none;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+header .navbar li {
+	display: inline;
+		border: 2px, white;
+	
+	
+}
+
+header .navbar a{
+	color: white;
+	text-decoration: none;
+	margin: 5%;
+	padding: 14px 16px;
+	
+}
+
+header .navbar a:hover{
+	  background-color:  #AAB3AB;
+}
+
+aside {
+	width: 40%;
+	overflow: hidden;
+	position: relative;
+	float: left;
+
+}
+
+aside .sidenav {
+	 height: 100%;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #d4d4dc;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+aside .a, .dropdown-button {
+	padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+aside  .dropdown-container {
+    text-decoration: none;
+    display: none;
+    background-color: white;
+    padding-left: 8px;    
+}
+
+.main-content {
+	display: block;
+	float: none;
+	overflow: auto;
+	background: rgba(255, 255, 255, 0.5);
+	width: 50%;
+	
+	max-height:100%; 
+	margin: 0 auto;
+	margin-top: 30px;
+	border: medium white groove;	
+
+}
+
+.box-title {
+	background-color: #feda6a;
+	text-align: center;
+	padding: 1px;
+}
+
+.main-event-header {
+	display: inline-flex;
+	color: white;
+}
+
+.date {
+	padding: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.evento {
+	padding: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 140px;
+}
+
+.1 {
+	padding: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.2 {
+	padding: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.X {
+	padding: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#btnLogin {
+	color: white;
+	
+	border-color: white;	
+	background-color: black;
+
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px
+}
+
+#btnRegistrati {
+	color: white;
+	border-color: white;	
+	background-color: black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    text-align: center;
+    
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#customers button {
+	background: none;
+	border: none;
+	size: ;
+}
+
+#customers button:hover {
+	background: white;
+	
+}
+
+#customers .clickable:hover {
+	background-color: white;
+}
+
+.table {
+	background-color: yellow;
+}
+
+
+
